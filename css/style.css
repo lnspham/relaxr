@@ -63,7 +63,7 @@ body {
   margin: 10px auto;
   border: 1px solid black;
   padding: 3px;
-  width: 1000px;
+  width: 960px;
   background-color: #FFF;
 }
 
@@ -79,6 +79,24 @@ header {
 
 section#benefits {
   height: 300px;
+}
+
+section#benefits p {
+  font-size: 13px;
+  font-weight: 200;
+  color: #606161;
+  width: 350px;
+}
+
+section#benefits ul {
+  color: #606161;
+  margin-top: 25px;
+  width: 270px;
+}
+
+section#benefits ul li {
+  list-style-type: disc;
+  margin-left: 60px;
 }
 
 section.quote {
@@ -104,22 +122,18 @@ h1 {
   color: #FFF;
 }
 
-h1.logoFooter {
-  color: #f9e42e;
-  margin: 0 auto;
-}
-
 h2 {
   font-size: 24px;
   font-weight: normal;
   color: #FFF;
-  margin: 200px auto 100px;
+  margin: 130px 0 100px 60px;
 }
 
 h3 {
   color: #033048;
   font-size: 20px;
   font-weight: bold;
+  margin-bottom: 20px;
 }
 
 ul {
@@ -149,7 +163,9 @@ blockquote {
 }
 
 blockquote p {
-
+  width: 340px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 div.signUpButton {
@@ -168,6 +184,12 @@ div.signUpButton a {
   text-decoration: none;
 }
 
+h1.logoFooter {
+  color: #f9e42e;
+  font-size: 24px;
+  font-weight:  bolder;
+}
+
 footer ul {
     padding: 50px 50px 50px 0;
 }
@@ -181,6 +203,7 @@ footer ul li {
 footer p {
   color: #FFF;
   font-size: 9px;
+  font-weight: bold;
 }
 
 
