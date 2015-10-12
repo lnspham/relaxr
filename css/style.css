@@ -184,26 +184,32 @@ div.signUpButton a {
   text-decoration: none;
 }
 
-h1.logoFooter {
+.logoFooter {
   color: #f9e42e;
   font-size: 24px;
   font-weight:  bolder;
+  text-align: center;
 }
 
 footer ul {
-    padding: 50px 50px 50px 0;
+    padding: 50px 0 50px;
+    text-align: center;
 }
 
 footer ul li {
   display: inline;
   list-style-type: none;
-  margin-right:  50px;
+}
+
+footer ul li.twitter {
+  padding-right: 30px;
 }
 
 footer p {
   color: #FFF;
   font-size: 9px;
   font-weight: bold;
+  text-align: center;
 }
 
 
